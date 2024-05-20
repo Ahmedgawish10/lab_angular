@@ -1,0 +1,33 @@
+body{
+    height: initial;
+}
+.about_section .about_content {
+  
+    padding-bottom: 60px;
+       
+}
+.about_section button{
+border-radius: 0 !important;
+padding: 10px 20px;
+}
+.about_section button a{
+color: rgb(0, 0, 0);
+
+
+}
+.about_section button:hover a{
+    color: rgb(255, 255, 255);
+    
+    
+    }
+
+@media (max-width:500px){
+    .about_section .about_content {
+        flex-wrap: wrap;
+        padding: 10px;
+
+}
+    .right,.right .lorem{
+        width: initial !important;
+    }
+}

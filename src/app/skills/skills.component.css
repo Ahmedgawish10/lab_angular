@@ -1,0 +1,32 @@
+.skills_section{
+    color: white;
+}
+.skills_section .skill-1 > div:first-child{
+padding: 10px 20px;
+
+}
+
+.skills_section .skill-1   .four, .skills_section .skill-1 .six{
+    width: 80% !important;
+    
+  }
+ .skills_section .skill-1   .five{
+    width: 50% !important;
+    
+  }
+  .skills_section .skill-1   .eight{
+    width:20% !important;
+    
+  }
+
+
+@media screen and (max-width:550px) {
+.contnet_skills{
+  display: block !important;
+
+  }
+  .skills_section .container{
+        padding-bottom: 20px;
+  } 
+  
+}

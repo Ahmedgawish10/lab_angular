@@ -1,0 +1,16 @@
+div{
+    color: white;
+}
+button{
+    border-radius: 0 !important;
+}
+@media screen and (max-width:500px) {
+    .footer_content{
+             display: block !important;
+    }
+ 
+ .footer_content > div{
+margin-bottom: 20px;
+
+ }           
+}

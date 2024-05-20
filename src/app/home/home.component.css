@@ -1,0 +1,24 @@
+body{
+    height: initial;
+}
+.home_section{
+    background-image: url("../../assets/ahmed.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-position: center;
+}
+.home_section button{
+
+border-radius: 0 !important;
+padding: 8px 35px;
+
+}
+.home_section  button a{
+color: white !important;
+
+
+}
+
+

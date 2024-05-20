@@ -1,0 +1,47 @@
+.portfolio_heading{
+width: 90%;
+}
+.portfolio_boxs{
+grid-template-columns: repeat(3,1fr);
+}
+.box1 .tittle{
+position: relative;
+}
+.box1 .tittle::before{
+    content: "";
+    position: absolute;
+    left: 25%;
+    top: 65%;
+    width: 130px;
+    height: 2px;
+    background:rgb(255, 255, 255);
+    }
+    .portfolio .container1{
+        width: 90% !important;
+        margin: auto !important;
+    }
+    @media (min-width:900px){
+        .box1 .tittle::before{
+            position: absolute;
+            left:33%;
+            top: 65%;
+            width: 130px;
+            height: 2px;
+            background:rgb(255, 255, 255);
+            margin-top: 10px;
+            }
+
+    }
+    @media (max-width:700px){
+        .portfolio_boxs{
+            grid-template-columns: repeat(2,1fr);
+            }
+
+    }
+    @media (max-width:450px){
+        .portfolio_boxs{
+            grid-template-columns: repeat(1,1fr);
+            }
+
+    }
+  
