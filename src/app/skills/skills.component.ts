@@ -20,9 +20,9 @@ export class SkillsComponent {
       one:"HTML",
       two:"CSS",
       three:"JavaScript",
-      four:"React",
-      five:"Photoshop",
-      six:"AdobeXD",
+      four:"ReactJS",
+      five:"NextJS",
+      six:"Angular",
       seven:"Nodejs",
       eight:"WordPress",
 
